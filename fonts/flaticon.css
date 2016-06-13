@@ -1,0 +1,66 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 13/06/2016 21:20
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-back:before { content: "\f100"; }
+.flaticon-bars:before { content: "\f101"; }
+.flaticon-behance-logo:before { content: "\f102"; }
+.flaticon-cancel:before { content: "\f103"; }
+.flaticon-circle:before { content: "\f104"; }
+.flaticon-contacts-social-network:before { content: "\f105"; }
+.flaticon-dates:before { content: "\f106"; }
+.flaticon-down-arrow:before { content: "\f107"; }
+.flaticon-dribbble:before { content: "\f108"; }
+.flaticon-earth:before { content: "\f109"; }
+.flaticon-facebook-logo:before { content: "\f10a"; }
+.flaticon-google-plus:before { content: "\f10b"; }
+.flaticon-google-plus-symbol:before { content: "\f10c"; }
+.flaticon-heart:before { content: "\f10d"; }
+.flaticon-instagram-social-network-logo-of-photo-camera:before { content: "\f10e"; }
+.flaticon-left-arrow:before { content: "\f10f"; }
+.flaticon-left-arrow-1:before { content: "\f110"; }
+.flaticon-link-symbol:before { content: "\f111"; }
+.flaticon-linkedin-letters:before { content: "\f112"; }
+.flaticon-linkedin-logo:before { content: "\f113"; }
+.flaticon-mail:before { content: "\f114"; }
+.flaticon-musica-searcher:before { content: "\f115"; }
+.flaticon-next:before { content: "\f116"; }
+.flaticon-note-paper-square-and-a-pencil:before { content: "\f117"; }
+.flaticon-phone-receiver:before { content: "\f118"; }
+.flaticon-photo:before { content: "\f119"; }
+.flaticon-right-arrow:before { content: "\f11a"; }
+.flaticon-right-arrow-1:before { content: "\f11b"; }
+.flaticon-shopping-cart-of-checkered-design:before { content: "\f11c"; }
+.flaticon-small-rocket-ship-silhouette:before { content: "\f11d"; }
+.flaticon-social:before { content: "\f11e"; }
+.flaticon-star:before { content: "\f11f"; }
+.flaticon-technology:before { content: "\f120"; }
+.flaticon-youtube-logo:before { content: "\f121"; }
+.flaticon-zoom-in:before { content: "\f122"; }

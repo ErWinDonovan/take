@@ -1,0 +1,109 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 13/06/2016 21:20
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-back:before { content: "\f100"; }
+.flaticon-bars:before { content: "\f101"; }
+.flaticon-behance-logo:before { content: "\f102"; }
+.flaticon-cancel:before { content: "\f103"; }
+.flaticon-circle:before { content: "\f104"; }
+.flaticon-contacts-social-network:before { content: "\f105"; }
+.flaticon-dates:before { content: "\f106"; }
+.flaticon-down-arrow:before { content: "\f107"; }
+.flaticon-dribbble:before { content: "\f108"; }
+.flaticon-earth:before { content: "\f109"; }
+.flaticon-facebook-logo:before { content: "\f10a"; }
+.flaticon-google-plus:before { content: "\f10b"; }
+.flaticon-google-plus-symbol:before { content: "\f10c"; }
+.flaticon-heart:before { content: "\f10d"; }
+.flaticon-instagram-social-network-logo-of-photo-camera:before { content: "\f10e"; }
+.flaticon-left-arrow:before { content: "\f10f"; }
+.flaticon-left-arrow-1:before { content: "\f110"; }
+.flaticon-link-symbol:before { content: "\f111"; }
+.flaticon-linkedin-letters:before { content: "\f112"; }
+.flaticon-linkedin-logo:before { content: "\f113"; }
+.flaticon-mail:before { content: "\f114"; }
+.flaticon-musica-searcher:before { content: "\f115"; }
+.flaticon-next:before { content: "\f116"; }
+.flaticon-note-paper-square-and-a-pencil:before { content: "\f117"; }
+.flaticon-phone-receiver:before { content: "\f118"; }
+.flaticon-photo:before { content: "\f119"; }
+.flaticon-right-arrow:before { content: "\f11a"; }
+.flaticon-right-arrow-1:before { content: "\f11b"; }
+.flaticon-shopping-cart-of-checkered-design:before { content: "\f11c"; }
+.flaticon-small-rocket-ship-silhouette:before { content: "\f11d"; }
+.flaticon-social:before { content: "\f11e"; }
+.flaticon-star:before { content: "\f11f"; }
+.flaticon-technology:before { content: "\f120"; }
+.flaticon-youtube-logo:before { content: "\f121"; }
+.flaticon-zoom-in:before { content: "\f122"; }
+    
+    $font-Flaticon-back: "\f100";
+    $font-Flaticon-bars: "\f101";
+    $font-Flaticon-behance-logo: "\f102";
+    $font-Flaticon-cancel: "\f103";
+    $font-Flaticon-circle: "\f104";
+    $font-Flaticon-contacts-social-network: "\f105";
+    $font-Flaticon-dates: "\f106";
+    $font-Flaticon-down-arrow: "\f107";
+    $font-Flaticon-dribbble: "\f108";
+    $font-Flaticon-earth: "\f109";
+    $font-Flaticon-facebook-logo: "\f10a";
+    $font-Flaticon-google-plus: "\f10b";
+    $font-Flaticon-google-plus-symbol: "\f10c";
+    $font-Flaticon-heart: "\f10d";
+    $font-Flaticon-instagram-social-network-logo-of-photo-camera: "\f10e";
+    $font-Flaticon-left-arrow: "\f10f";
+    $font-Flaticon-left-arrow-1: "\f110";
+    $font-Flaticon-link-symbol: "\f111";
+    $font-Flaticon-linkedin-letters: "\f112";
+    $font-Flaticon-linkedin-logo: "\f113";
+    $font-Flaticon-mail: "\f114";
+    $font-Flaticon-musica-searcher: "\f115";
+    $font-Flaticon-next: "\f116";
+    $font-Flaticon-note-paper-square-and-a-pencil: "\f117";
+    $font-Flaticon-phone-receiver: "\f118";
+    $font-Flaticon-photo: "\f119";
+    $font-Flaticon-right-arrow: "\f11a";
+    $font-Flaticon-right-arrow-1: "\f11b";
+    $font-Flaticon-shopping-cart-of-checkered-design: "\f11c";
+    $font-Flaticon-small-rocket-ship-silhouette: "\f11d";
+    $font-Flaticon-social: "\f11e";
+    $font-Flaticon-star: "\f11f";
+    $font-Flaticon-technology: "\f120";
+    $font-Flaticon-youtube-logo: "\f121";
+    $font-Flaticon-zoom-in: "\f122";

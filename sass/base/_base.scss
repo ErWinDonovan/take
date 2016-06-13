@@ -1,0 +1,62 @@
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, address, big, cite, code,
+img, b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, table, tr, th, td,
+input, textarea {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $osans;
+	color: #000;
+	background-color: #dcdcdc;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+h1, h2, h3, h4 {
+	font-family: $osans;
+	font-weight: 700;
+	margin-bottom: 15px;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.4;
+	font-family: $osans;
+	font-weight: 300;
+	color: $gray;
+	margin-bottom: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: $black;
+	transition: .2s;
+	&:hover {
+		color: $black;
+	}
+}
