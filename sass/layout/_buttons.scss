@@ -1,4 +1,4 @@
-.header {
+.heading {
 	text-align: center;
 	
 	h1 {
@@ -6,7 +6,6 @@
 		text-transform: uppercase;
 		color: #424242;
 	}
-
 }
 
 .section-1, 
@@ -58,6 +57,15 @@
 }
 
 ///иконки
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-size: 10px;
+	font-style: normal;
+	margin-left: 3px;
+	vertical-align: middle;
+}
 
 .icon-cart:before,
 .icon-star:before,
