@@ -1494,28 +1494,29 @@ a:hover {
   opacity: 0;
   background: #fff;
   border-top: 1px solid #dcdcdc;
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.2s;
   transition: all 0.3s;
 }
 
-.megamenu-holder {
-  top: 0;
-  width: 100%;
-  padding: 0;
-}
-
 .megamenu {
   padding: 25px 0 25px 0;
-  top: 2px;
-  display: table;
   width: 100%;
 }
 .megamenu > li {
-  display: table-cell;
   border-right: 1px solid #ccc;
+  margin-bottom: 15px;
 }
-.megamenu > li:last-child {
+.megamenu > li:nth-child(4) {
   border-right: none;
+}
+.megamenu > li:nth-child(5) {
+  clear: both;
+}
+.megamenu:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .megamenu-title {
@@ -1526,9 +1527,8 @@ a:hover {
   color: #000;
 }
 .sub-menu li a {
-  display: inline-block;
-  padding: 0 20px;
-  margin-bottom: 15px;
+  display: block;
+  padding: 7px 20px;
   font-size: 14px;
   color: #aaa;
   text-transform: none;
