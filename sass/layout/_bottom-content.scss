@@ -1,0 +1,148 @@
+.more-power {
+	position: relative;
+}
+
+.power-wrap {
+	position: absolute;
+	bottom: 100px;
+	padding: 25px 15px 25px 15px;
+	max-width: 560px;
+}
+
+.read-more {
+
+	a {
+		color: #fff;
+		font-size: 14px;
+		font-weight: 700;
+		padding: 5px;
+
+		&:hover {
+			color: #ccc;
+		}
+
+		&:after {
+			content: $font-Flaticon-right-arrow;
+			font-family: "flaticon";
+			font-size: 10px;
+			margin-left: 10px;
+			vertical-align: middle;
+		}
+	}
+}
+
+.reasones {
+	position: relative;
+
+	.side-label {
+		left: 30px;
+		top: 130px;
+	}
+
+	.content-head,
+	.content-subhead, {
+		color: #fff;
+	}
+
+	.content-text {
+
+		p {
+			color: #fff;
+		}
+	}
+}
+
+.buy-plan {
+	position: relative;
+
+	.content-head {
+		padding: 0;
+	}
+
+	.content-text {
+		
+		p {
+			color: #8297a7;
+		}
+	}
+
+	.side-label {
+		left: 30px;
+		top: 130px;
+		color: #b8b8b8;
+	}
+}
+
+.content-holder {
+	padding: 30px;
+	transition: all .2s;
+	
+	&:hover {
+		background-color: #fff;
+		box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
+
+		.meta {
+			background-color: #bd8cbf;
+
+			&:hover {
+				background-color: #996699;
+				box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
+
+			}
+		}
+	}
+}
+
+.meta {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #e1e1e1;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #fff;
+	cursor: pointer;
+	transition: all .2s;
+}
+
+.platforms {
+
+	li {
+	display: inline-block;
+	padding: 5px;
+
+		a {
+			display: block;
+			font-size: 20px;
+			color: #c5c5c5;
+
+			&:hover {
+				color: #999999;
+			}
+
+			&:before {
+				font-family: "flaticon";
+			}
+		}
+	}
+}
+
+.icon-apple {
+
+	a {
+
+		&:before {
+			content: $font-Flaticon-apple;
+		}
+	}
+}
+
+.icon-windows {
+
+	a {
+
+		&:before {
+			content: $font-Flaticon-windows-logo-silhouette;
+		}
+	}
+}

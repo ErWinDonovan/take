@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 994px) {
+
+.masthead, .masthead-holder {
+	padding: 0;
+	min-height: 600px;
+}
+
+.side-label {
+	display: none;
+}
+
+.phone-wrap {
+	display: none;
+}
+
+.col-right {
+	margin-top: 0;
+}
+
+.start-new, .details, .reasones, .buy-plan, .footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.more-power {
+	min-height: 600px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+.footer .content-text {
+	margin-bottom: 20px;
+}
+
+}

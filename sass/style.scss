@@ -8,9 +8,16 @@
 @import "base/base";
 
 /*********LAYOUT*********/
-@import "layout/buttons";
 @import "layout/grid";
-@import "layout/nav";
+@import "layout/layout";
+@import "layout/head";
+@import "layout/button";
+
+@import "layout/top-content";
+@import "layout/bottom-content";
+@import "layout/footer";
+
+@import "layout/responsive";
 
 /********SECTIONS********/
 

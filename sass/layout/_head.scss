@@ -1,0 +1,92 @@
+.header {
+	position: absolute;
+	display: table;
+	top: 45px;
+	width: 100%;
+	z-index: 20;
+}
+
+.logo {
+	display: table-cell;
+	font-family: $merri;
+	text-transform: lowercase;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 21px;
+
+	a {
+		display: block;
+		color: #fff;
+		padding: 5px;
+
+		&:hover {
+			color: #64D78C;
+		}
+
+		img {
+			max-height: 41px;
+			margin-right: 10px;
+		}
+	}
+}
+
+.masthead, .masthead-holder {
+	min-height: 835px;
+}
+
+.masthead {
+	position: relative;
+	background-image: url(../img/headbg.png);
+	background-position: center;
+	background-size: cover;
+	padding: 60px;
+}
+
+.masthead-holder {
+	position: relative;
+}
+
+.phone-wrap {
+	position: absolute;
+	right: 0;
+	bottom: -230px;
+}
+
+.masthead-wrap {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding: 25px 15px 25px 15px;
+	max-width: 450px;
+}
+
+.masthead-heading {
+	font-size: 60px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.masthead-text {
+
+	p {
+		font-size: 13px;
+		color: #fff;
+	}
+}
+
+.side-label {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	-webkit-transform: rotate(-90deg) translateY(-50%); 
+	transform: rotate(-90deg) translateY(-50%); 
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 12px;
+
+		span {
+			margin-right: 10px;
+			color: #a3c3ce;
+		}
+}

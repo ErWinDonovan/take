@@ -1,0 +1,108 @@
+.content-head {
+	font-size: 35px;
+	font-weight: 300;
+}
+
+.content-subhead {
+	font-size: 13px;
+	color: #67676d;
+}
+
+.details {
+	position: relative;
+
+	.side-label {
+		left: 30px;
+		top: 130px;
+		color: #b8b8b8;
+	}
+}
+
+.content-text {
+
+	p {
+		color: #b5b5b5;
+	}
+}
+
+.col-right {
+	margin-top: 60px;
+}
+
+.design-block {
+	position: relative;
+	min-height: 271px;
+	padding: 40px;
+	overflow: hidden; 
+
+	.content-head {
+		padding: 0;
+		color: #fff;
+	}
+
+	.content-text {
+		margin-bottom: 40px;
+		p {
+			color: #fff;	
+			margin-bottom: 0;
+		}
+	}
+
+	.read-more {
+		
+		a {
+
+			&:hover {
+			color: #3175CD;
+			}
+		}
+	}
+
+	&:hover .design-img-wrap {
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+}
+
+.design-img-wrap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	transition: .5s ease;
+}
+
+.rose {
+	background-color: #f5989d;
+}
+
+.purple {
+	background-color: #615f7d;
+}
+
+.green {
+	background-color: #82ca9c;
+}
+
+.like {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	
+	a {
+		color: #fff;
+		display: block;
+
+		&:before {
+			content: $font-Flaticon-heart;
+			display: block;
+			font-family: "flaticon";
+		}	
+	}
+
+	&:hover {
+		a {
+			color: #EB1317;
+		}
+	}
+}

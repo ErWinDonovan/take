@@ -1,0 +1,90 @@
+.footer {
+
+	.content-subhead {
+		color: #f6f7fa;
+	}
+
+	.content-text {
+		margin-bottom: 75px;
+
+		p {
+			color: #f6f7fa;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.footer-nav-wrap{
+	margin-bottom: 20px;
+}
+
+.footer-nav {
+
+	a {
+		display: block;
+		padding: 5px;
+		color: #f6f7fa;
+		font-size: 13px;
+
+		&:hover {
+			color: #ccc;
+		}
+	}
+}
+
+input[type="email"] {
+	padding: 20px;
+}
+
+.form-holder {
+	padding-left: 15px;
+   padding-right: 15px;
+}
+
+.email-submit {
+	position: relative;
+	height: 59px;
+	cursor: pointer;
+	background-color: #82ca9c;
+	border: none;
+	transition: background-color .2s;
+
+	&:after {
+		position: absolute;
+		top:0;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		content: $font-Flaticon-mark;
+		display: block;
+		font-family: "flaticon";
+		font-size: 30px;
+		color: #fff;
+		line-height: 59px;
+	}
+
+	&:hover {
+		background-color: #669966;
+	}
+}
+
+.form-wrap {
+	margin-bottom: 20px;
+
+	&:after {
+		display: block;
+		content: "";
+		clear: both;
+	}
+}
+
+.spam-text {
+
+	p {
+		font-size: 12px;
+		color: #57697f;
+	}
+}

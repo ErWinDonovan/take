@@ -9,9 +9,7 @@ input, textarea {
 
 body {
 	font-family: $osans;
-	color: #000;
-	background-color: #dcdcdc;
-
+	position: relative;
 }
 
 img {
@@ -21,7 +19,6 @@ img {
 }
 
 h1, h2, h3, h4 {
-	font-family: $osans;
 	font-weight: 700;
 	margin-bottom: 15px;
 	line-height: 1.4;
@@ -46,7 +43,6 @@ h4 {
 p {
 	font-size: 14px;
 	line-height: 1.4;
-	font-family: $osans;
 	font-weight: 300;
 	color: $gray;
 	margin-bottom: 15px;
